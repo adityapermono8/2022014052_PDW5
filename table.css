@@ -1,0 +1,65 @@
+body {
+    height: 100%;
+    margin: 0;
+    color: #ffffff; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.BGimg {
+    background-image: url('aset/bck.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    position: relative;
+}
+
+#judul {
+    font-size: 28px; 
+    background-color: #3399ff;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+table {
+    display: inline-block;
+    border-color: #1d77bb; 
+    border-radius: 10px;
+    border-width: 2px;
+    transition: transform 0.3s ease;
+    margin: 20px auto; 
+}
+
+table:hover {
+    transform: scale(1.05);
+}
+
+#jdl {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#member {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#mnama, #mposisi, #mtgl, #msub {
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block; 
+    margin:auto; 
+    color: #ffffff; 
+}
+
+.left-div {
+    width: 100px;
+    display: inline-block;
+}
+
+.right-div {
+    display: inline-block;
+}
